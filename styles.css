@@ -1,0 +1,35 @@
+body { 
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f4f4f4;
+}
+
+header, section, footer {
+  margin-bottom: 20px;
+  padding: 10px; /* Fixed typo: removed the extra 's' */
+  background-color: rgba(255, 255, 255, 0.181);
+  border-radius: 6px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #007BFF;
+  color: rgba(255, 255, 255, 0.904);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.added-element {
+  color: navy;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+
